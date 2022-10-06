@@ -14,7 +14,13 @@
     {{else}}
     <li><a href="/create">Новая задача</a></li>
     {{/if}}
-        <li><a href="/info">Данные</a></li>
+
+    {{#if isInfo}}
+        <li class="active"><a href="/info">Данные</a></li>
+    {{else}}
+    <li><a href="/info">Данные</a></li>
+    {{/if}}
+
 </ul>
 </div>
 </nav>

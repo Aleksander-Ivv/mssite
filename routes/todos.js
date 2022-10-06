@@ -28,7 +28,8 @@ router.get('/info', (req, res) => {
     pool.query('SELECT * from oc_product', function(err, data) {
         if (err) return console.log(err);
         res.render('info', {
-            product:data
+            product:data,
+            isInfo: true
         });
     });
 })
