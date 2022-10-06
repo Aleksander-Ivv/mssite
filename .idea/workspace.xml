@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a57d1d7-840b-4d4b-9101-6746fd03b770" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2FiWcBK5nPfT4aDD607yDDmo4FC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a57d1d7-840b-4d4b-9101-6746fd03b770" name="Default Changelist" comment="" />
+      <created>1664975462953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664975462953</updated>
+      <workItem from="1664975465572" duration="1631000" />
+      <workItem from="1664977258176" duration="1286000" />
+      <workItem from="1664998027631" duration="1554000" />
+      <workItem from="1664999843781" duration="1215000" />
+      <workItem from="1665001816996" duration="1638000" />
+      <workItem from="1665003669737" duration="473000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1664976338902">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="488" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1664976338902" />
+  </component>
+</project>
