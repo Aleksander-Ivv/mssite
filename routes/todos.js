@@ -24,7 +24,7 @@ router.get('/create', (req, res) => {
     })
 })
 
-router.get('/info', (req, res) => {
+router.get('/info', async (req, res) => {
     pool.query('SELECT * from oc_product', function(err, data) {
         if (err) return console.log(err);
         res.render('info', {
@@ -32,6 +32,14 @@ router.get('/info', (req, res) => {
             isInfo: true
         });
     });
+})
+
+router.post('/create', async (req, res) => {
+    const product = req.body.title
+    pool.query('INSERT INTO oc_product (sku, price) VALUES (?, ?)', [product, 3], function(err, data){
+        if (err) return console.log(err)
+    })
+    res.redirect('/info')
 })
 
 module.exports = router
