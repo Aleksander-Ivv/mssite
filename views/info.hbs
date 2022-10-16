@@ -1,9 +1,13 @@
-<table>
-    <tr><th>Артикул</th><th>Цена</th><th></tr>
-    {{#each product}}
-        <tr>
-            <td>{{this.sku}}</td>
-            <td>{{this.price}}</td>
-        </tr>
-    {{/each}}
-</table>
+    <table>
+        <tr><th></th><th>Действие</th><th>Артикул</th><th>Цена</th><th></tr>
+        {{#each product}}
+            <tr>
+                <form action="/info" method="POST">
+                    <td class="td-hidden"><input type="hidden" value="{{this.sku}}" name="sku_id"></td>                      
+                    <td><button class="btn" type="submit">Удалить</button></td> 
+                    <td>{{this.sku}}</td>
+                    <td>{{this.price}}</td>
+                </form>
+            </tr>
+        {{/each}}
+    </table>

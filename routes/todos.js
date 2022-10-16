@@ -36,10 +36,20 @@ router.get('/info', async (req, res) => {
 
 router.post('/create', async (req, res) => {
     const product = req.body.title
+    console.log(req.body)
     pool.query('INSERT INTO oc_product (sku, price) VALUES (?, ?)', [product, 3], function(err, data){
         if (err) return console.log(err)
     })
     res.redirect('/info')
 })
+
+router.post('/info', async (req, res) => {
+    console.log(req.body.sku_id)
+    pool.query('DELETE FROM oc_product WHERE sku=?', [req.body.sku_id], function(err, data){
+        if (err) return console.log(err)
+    })
+    res.redirect('/info')
+})
+
 
 module.exports = router
